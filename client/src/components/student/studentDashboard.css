@@ -1,0 +1,155 @@
+.dashboard {
+  display: flex;
+}
+
+.dashboard-content {
+  margin-left: 220px;
+  padding: 20px;
+  border: 1px solid black;
+  position: relative;
+  top: 75px;
+  background-color: rgb(255, 255, 255);
+  width: calc(100% - 240px);
+  height: 90vh;
+  left: 15px;
+  z-index: 0;
+  overflow-y: auto;
+}
+
+.subjects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.subject-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.subject-card button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.subject-card button:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.enroll-section {
+  background-color: rgb(255, 255, 255);
+  width: 500px;
+  height: 200px;
+  position: relative;
+  top: -50%;
+  left: 30%;
+  border: 1px solid black;
+  z-index: 1;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.enroll-section h2 {
+  margin-bottom: 20px;
+}
+
+.enroll-section input {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.enroll-section button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.enroll-section button:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.success {
+  color: green;
+  font-weight: bold;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+.course-card,
+.assignment-card,
+.notification-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.course-card h2,
+.assignment-card h2,
+.notification-card h2 {
+  margin-bottom: 10px;
+}
+
+.profile-details {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profile-details p {
+  margin: 10px 0;
+}
+
+.loading {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.my-courses-content,
+.profile-content,
+.assignments-content,
+.notifications-content {
+  margin-left: 220px;
+  padding: 20px;
+  border: 1px solid black;
+  position: relative;
+  top: 75px;
+  background-color: rgb(255, 255, 255);
+  width: calc(100% - 240px);
+  height: 90vh;
+  left: 65px;
+  z-index: 0;
+  overflow-y: auto;
+}
+
+.my-courses-content h1,
+.profile-content h1,
+.assignments-content h1,
+.notifications-content h1 {
+  margin-bottom: 20px;
+}

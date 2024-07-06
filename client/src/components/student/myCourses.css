@@ -1,0 +1,33 @@
+.dashboard {
+    display: flex;
+  }
+  
+  .dashboard-content {
+    margin-left: 220px;
+    padding: 20px;
+  }
+  
+  .subject {
+    margin-bottom: 20px;
+  }
+  
+  details summary {
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table th, table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  table th {
+    background-color: #f4f4f4;
+  }
+  

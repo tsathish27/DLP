@@ -1,0 +1,39 @@
+.sidebar {
+    width: 250px;
+    background-color: #ffffff;
+    padding: 20px;
+    position: fixed;
+    height:85%;
+    top: 75px;
+    left:0px;
+    border: 1px solid black;
+  }
+  
+  .sidebar-item {
+    margin: 20px 10px;
+    padding: 20px 20px;
+    cursor: pointer;
+    background-color: #ffffff;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    color: black ;
+    border: 1px solid #ddd;
+    text-decoration: none;
+
+  }
+  
+  .sidebar-item a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+
+  }
+   
+  .sidebar-item li{
+    text-decoration: none;
+    
+  }
+  
+  .sidebar-item:hover{
+    background-color: #787d83;
+  }

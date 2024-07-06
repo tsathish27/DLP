@@ -1,0 +1,225 @@
+/* Navbar styles (can be reused from loginStyles.css) */
+/* Content styles */
+.content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  padding: 20px;
+  border: 20px solid #f9f9f9;
+  width:1200px;
+  height: 500px;
+  background: #f9f9f9;
+ position: absolute;
+ left: 150px;
+ border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.left-side{
+  flex:1;
+  padding: 20px;
+  box-shadow:  0 2px 4px rgba(0, 0, 0, 0.1);
+  width:200px;
+  height: 500px;
+  background: #ffffff;
+}
+
+.left-side h2{
+  margin-top: 2px;
+  margin-bottom: 5px;
+  color: #333;
+  font-size: 20px;
+  font-weight: bold;
+  align-items: center;
+  padding:7px 10px;
+  position: relative;
+  left:5px;
+  top:10px;
+}
+
+.left-side input{
+  width: 80%;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  position: relative;
+  left: 27px;
+  display: flex;
+  top:15px;
+}
+
+.left-side button{
+padding:15px 40px;
+border-radius: 10px; 
+color: #ffffff;
+background-color: #4CAF50;
+font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  width: 80%;
+  position: relative;
+  left:-5px;
+  top:30px;
+ 
+}
+.left-side button:hover{
+background-color: #45a049;
+}
+.left-side button::after{
+background-attachment: fixed;;
+}
+.left-side p{
+font-size: 15px;
+position: relative;
+left: 0px;
+top: 26px;
+}
+.left-side h3{
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  font-weight: 500;
+  margin:60px 70px;
+}
+.right-side{
+  flex:2;
+  padding:0;
+
+  
+}
+.right-side h2 {
+display: flex;
+align-items: center;
+padding: 30px 80px;
+position: relative;
+right:-120px;
+top:-50px;
+}
+.right-side p {
+display: flex;
+align-items: center;
+position: relative;
+left:170px;
+top:-80px;
+}
+
+.right-side img{
+width:65%;
+position: relative;
+top:-40px;
+left:20px;
+}
+
+ 
+.ReactModal__Overlay {
+  background-color: rgba(0, 0, 0, 0.75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Modal Content Styles */
+.ReactModal__Content {
+  border: none;
+  background: #fff;
+  overflow: auto;
+  border-radius: 8px;
+  outline: none;
+  padding: 30px;
+  max-width: 500px;
+  width: 90%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  animation: modalFadeIn 0.3s ease-in-out;
+}
+
+/* Modal Header */
+.ReactModal__Content h2 {
+  margin-top: 0;
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+  border-bottom: 2px solid #f0f0f0;
+  padding-bottom: 10px;
+}
+
+/* Modal Body */
+.ReactModal__Content div {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Modal Close Button */
+.ReactModal__Content button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.ReactModal__Content button:hover {
+  background-color: #0056b3;
+}
+
+/* Animation */
+@keyframes modalFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .content {
+      flex-direction: column;
+      align-items: center;
+      width: 70%;
+      height: auto;
+      left: 5%;
+      margin-top: 20px;
+      padding: 20px;
+      top: 80px;
+      
+  }
+
+  .left-side {
+      width: 100%;
+      height: auto;
+      box-shadow: none;
+      border: none;
+  }
+
+  .left-side input .left-side button {
+      width: 90%;
+      position: relative;
+      left: 10px;
+  }
+
+  .left-side button{
+    width: 90%;
+    position: relative;
+    left: 10px;
+  }
+
+  .right-side {
+      display: none;
+  }
+}
+

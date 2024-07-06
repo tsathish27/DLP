@@ -1,0 +1,23 @@
+.dashboard {
+    display: flex;
+  }
+  
+  .dashboard-content {
+    margin-left: 270px;
+    padding: 20px;
+  }
+  
+  .details {
+    margin-bottom: 20px;
+  }
+  
+  details summary {
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+  
+  ul {
+    list-style: none;
+    padding-left: 20px;
+  }
+  
